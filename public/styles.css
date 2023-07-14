@@ -5,9 +5,9 @@ body {
   
   .mains {
     margin: 0 auto;
-    padding:  25px;
-    width: 55%;
-    height: 12em;
+    padding:  5%;
+    width: 70%;
+    height: 50vh;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(5px);
@@ -15,9 +15,9 @@ body {
   }
   .other {
     margin: 0 auto;
-    padding:  25px;
-    width: 55%;
-    height: 12em;
+    padding:  5%;
+    width: 70%;
+    height: auto;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(5px);
@@ -35,7 +35,7 @@ body {
   }*/
 
   #time {
-    font-size: 600%;
+    font-size: 5em;
     
   }
 .notes {
@@ -91,71 +91,4 @@ button {
 
 
 */
-@media screen and (max-width: 400px) { 
-  main{
-    width: 400px;
-    max-width: 400px;
-    overflow: hidden;
-    
-     }
 
-  
- 
- #clock {
-  font-size: 50% !important;
- }
- .notes {
-  font-size: small;
- }
- 
-}
-
-
-@media (max-width: 575.98px) { 
-  main{
-width: 500px;
-max-width: 575.98px;
-overflow: hidden;
- }
- .other,
- .mains {
-  position: absolute;
-  margin: 0 auto;
- }
- .notes {
-  font-size: small;
- }
-     }
-
-
-
-  
-    
-    
-
-
-@media (max-width: 991.98px) { 
-    
-  .vl {
-    display: none;
-  }
-  .notes {
-    font-size: small;
-   }
-     }
-
-
-@media (max-width: 1199.98px) { 
-
-  
-
- }
-
-
-@media (max-width: 1399.98px) { 
-
-
-
-
-
- }
